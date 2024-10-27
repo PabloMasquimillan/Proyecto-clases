@@ -6,7 +6,36 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+  <script async src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  </head>
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <img src="assets/9391723.png" alt="" widht="80" height="80" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="">Mercy Developer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Opciones</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/inicio">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactanos">contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ubicanos">ubicanos</a>
+            </li>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
 <body>
   <app-root></app-root>
 </body>

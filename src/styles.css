@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+img {
+    max-width: 720px;
+    float: left;
+}
+
+.text-box h1 {
+    font-size: 35px;
+}
+
+.text-box p {
+    font-size: 14px;
+}
